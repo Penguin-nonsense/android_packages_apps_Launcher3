@@ -57,4 +57,7 @@
     <!-- DT2S -->
     <string name="pref_sleep_gesture_title">Double tap to sleep</string>
     <string name="pref_sleep_gesture_summary">Double tap on empty space for screen off</string>
+
+    <!-- Top shadow -->
+    <string name="show_top_shadow">Top shadow</string>
 </resources>
