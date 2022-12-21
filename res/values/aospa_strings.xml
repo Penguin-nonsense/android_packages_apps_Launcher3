@@ -60,4 +60,8 @@
 
     <!-- Top shadow -->
     <string name="show_top_shadow">Top shadow</string>
+
+    <!-- Kill App recents action shortcut -->
+    <string name="recent_task_option_kill_app">Force Close</string>
+    <string name="recents_app_killed">App Closed</string>
 </resources>
