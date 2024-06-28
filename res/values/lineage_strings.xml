@@ -56,4 +56,7 @@
     <!-- App suggestions -->
     <string name="pref_suggestions_title">Suggestions</string>
     <string name="pref_suggestions_summary">For app drawer &amp; home screen suggestions</string>
+
+    <!-- App label -->
+    <string name="icon_two_lines_title">Use two lines for app label</string>
 </resources>
