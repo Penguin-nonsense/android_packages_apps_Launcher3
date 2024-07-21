@@ -138,6 +138,16 @@
             settings:units="%"
             android:defaultValue="100" />
 
+        <co.aospa.framework.preference.CustomSeekBarPreference
+            android:key="pref_blur_depth"
+            android:title="@string/background_blur_title"
+            android:summary="@string/background_blur_summary"
+            android:persistent="true"
+            android:max="100"
+            android:min="0"
+            settings:units="%"
+            android:defaultValue="75" />
+
     </androidx.preference.PreferenceCategory>
 
     <androidx.preference.PreferenceCategory

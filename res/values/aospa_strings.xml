@@ -81,4 +81,7 @@
     <!-- Font size -->
     <string name="font_size_title">Font size</string>
 
+    <!-- Background blur -->
+    <string name="background_blur_title">Background blur depth</string>
+    <string name="background_blur_summary">Set blur depth level for recents</string>
 </resources>

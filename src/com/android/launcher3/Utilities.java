@@ -169,6 +169,8 @@ public final class Utilities {
     public static final String KEY_DOCK_SEARCH = "pref_dock_search";
     public static final String KEY_SMARTSPACE = "pref_smartspace";
 
+    public static final String KEY_BLUR_DEPTH = "pref_blur_depth";
+
     /**
      * Returns true if theme is dark.
      */
@@ -890,4 +892,8 @@ public final class Utilities {
         return prefs.getBoolean(KEY_SMARTSPACE, true);
     }
 
+    public static int getBlurRadius(Context context) {
+        SharedPreferences prefs = LauncherPrefs.getPrefs(context.getApplicationContext());
+        return prefs.getInt(KEY_BLUR_DEPTH, 75);
+    }
 }
