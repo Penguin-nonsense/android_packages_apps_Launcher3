@@ -218,7 +218,7 @@
       color.
     -->
     <style name="ThemeControlHighlightWorkspaceColor">
-        <item name="android:colorControlHighlight">?attr/workspaceTextColor</item>
+        <item name="android:colorControlHighlight">@color/nt_overview_button_highlight_color</item>
     </style>
 
     <style name="OverviewActionButton"
