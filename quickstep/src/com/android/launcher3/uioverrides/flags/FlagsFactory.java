@@ -94,6 +94,7 @@ public class FlagsFactory {
             boolean currentValue = getSharedPreferences().getBoolean(key, defaultValue);
             DebugFlag flag = new DebugFlag(key, description, flagState, currentValue);
             sDebugFlags.add(flag);
+          return flag
     }
 
     /**
@@ -123,7 +124,6 @@ public class FlagsFactory {
     }
 
     static List<DebugFlag> getDebugFlags() {
-            return Collections.emptyList();
         synchronized (sDebugFlags) {
             return new ArrayList<>(sDebugFlags);
         }
