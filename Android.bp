@@ -411,7 +411,7 @@ android_app {
 android_app {
     name: "TrebuchetQuickStep",
 
-    static_libs: ["Launcher3QuickStepLib"],
+    static_libs: ["Launcher3QuickStepLib", "VendorSupport-preference"],
     optimize: {
         enabled: false,
     },
