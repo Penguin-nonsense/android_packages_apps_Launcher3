@@ -77,12 +77,12 @@
         <intent android:action="android.settings.ACTION_CONTENT_SUGGESTIONS_SETTINGS" />
     </androidx.preference.PreferenceScreen>
 
-    <SwitchPreferenceCompat
+       <com.lineage.support.preferences.SystemSettingSwitchPreference
         android:key="pref_enable_two_line_toggle"
         android:title="@string/icon_two_lines_title"
         android:defaultValue="false"
         android:persistent="true"
-        launcher:iconSpaceReserved="false"
+        launcher:iconSpaceReserved="false" />
 
     <SwitchPreference
         android:key="pref_allapps_themed_icons"
