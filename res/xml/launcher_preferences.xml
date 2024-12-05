@@ -77,7 +77,14 @@
         <intent android:action="android.settings.ACTION_CONTENT_SUGGESTIONS_SETTINGS" />
     </androidx.preference.PreferenceScreen>
 
-       <com.lineage.support.preferences.SystemSettingSwitchPreference
+     <SwitchPreference
+        android:key="pref_hide_top_shadow"
+        android:title="@string/hide_top_shadow_title"
+        android:summary="@string/hide_top_shadow_summary"
+        android:defaultValue="false"
+        android:persistent="true" />
+
+      <SwitchPreference
         android:key="pref_enable_two_line_toggle"
         android:title="@string/icon_two_lines_title"
         android:defaultValue="false"

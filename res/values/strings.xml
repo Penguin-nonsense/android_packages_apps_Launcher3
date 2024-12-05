@@ -482,4 +482,8 @@
     <!-- Strings for bubble bar -->
     <!-- content description for the overflow bubble [CHAR_LIMIT=none] -->
     <string name="bubble_bar_overflow_description">Overflow</string>
+
+    <string name="hide_top_shadow_title">Hide top shadow</string>
+    <string name="hide_top_shadow_summary">Remove shadow underneath the status bar</string>
+
 </resources>
